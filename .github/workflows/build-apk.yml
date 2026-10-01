@@ -1,0 +1,24 @@
+name: Build APK
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build_android:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v7
+
+      - name: Setup Java
+        uses: actions/setup-java@v6
+        with:
+          distribution: "zulu"
+          java-version: "11"
+          cache: "gradle"
+
+      - name: Decoding android/key.properties
+        run: echo "${{ secrets.KEY_PROP }}" | base64 --decode > android/key.properties
+
+      - name: Decoding android/key.jks
+        run: echo "${{ secrets.KEY_JKS }}" | base64 --decode > android/key.jks
