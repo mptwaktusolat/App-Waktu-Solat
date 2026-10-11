@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Prayer Time</string>
+    <string name="today_prayer_times">Today’s prayer times</string>
+    <string name="prayer_zone">Zone: %1$s</string>
+    <string name="hijri_date">Hijri: %1$s</string>
+    <string name="retry">Retry</string>
+    <string name="imsak">Imsak</string>
+    <string name="subuh">Subuh</string>
+    <string name="syuruk">Syuruk</string>
+    <string name="dhuha">Dhuha</string>
+    <string name="zohor">Zohor</string>
+    <string name="asar">Asar</string>
+    <string name="maghrib">Maghrib</string>
+    <string name="isyak">Isyak</string>
+    <string name="prayer_error_connection">Unable to connect. Check your internet connection and try again.</string>
+    <string name="prayer_error_server">The prayer time service is unavailable. Please try again.</string>
+    <string name="prayer_error_data">Today’s prayer timetable is missing or invalid. Please try again.</string>
+    <string name="prayer_error_unknown">Unable to load prayer times. Please try again.</string>
 </resources>
