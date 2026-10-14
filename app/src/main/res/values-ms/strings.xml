@@ -4,6 +4,18 @@
     <string name="today_prayer_times">Waktu solat hari ini</string>
     <string name="prayer_zone">Zon: %1$s</string>
     <string name="hijri_date">Hijri: %1$s</string>
+    <string name="home_title">Waktu Solat 🇲🇾</string>
+    <string name="prayer_time_at">%1$s pada %2$s</string>
+    <string name="current_prayer">Waktu solat semasa</string>
+    <string name="select_zone">Pilih zon waktu solat, %1$s</string>
+    <string name="menu">Menu</string>
+    <string name="button_prayer_monthly_timetable">Jadual Solat Bulanan</string>
+
+    <string name="button_qibla">Kiblat</string>
+    <string name="share_timetable">Kongsi jadual</string>
+    <string name="zone_selection">Pemilihan zon</string>
+    <string name="feature_not_ready">%1$s belum tersedia.</string>
+    <string name="loading_prayer_times">Memuatkan waktu solat…</string>
     <string name="retry">Cuba lagi</string>
     <string name="imsak">Imsak</string>
     <string name="subuh">Subuh</string>
