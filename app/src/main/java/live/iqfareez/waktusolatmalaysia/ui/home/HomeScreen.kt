@@ -171,9 +171,8 @@ private fun PrayerTimeCard(time: PrayerTime, formattedTime: String, isCurrent: B
             if (isCurrent) stateDescription = currentDescription
         },
         shape = RoundedCornerShape(12.dp),
-        color = MaterialTheme.colorScheme.surfaceContainerHigh,
+        color = MaterialTheme.colorScheme.surfaceContainer,
         contentColor = MaterialTheme.colorScheme.onSurface,
-        border = BorderStroke(0.5.dp, MaterialTheme.colorScheme.outlineVariant),
         shadowElevation = 1.dp,
     ) {
         Box(
